@@ -107,7 +107,9 @@ footer{
     text-align: center;
 }
 
-.login {
+
+
+.signup {
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -118,33 +120,35 @@ footer{
     margin-top: 100px;
 }
 
-.login h1 {
+.signup h1 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.login form {
+.signup form {
     display: flex;
     flex-direction: column;
 }
 
-.login form div {
+.signup form div {
     margin-bottom: 10px;
+    
 }
 
-.login form label {
+.signup form label {
     display: inline-block;
     font-weight: bold;
 }
 
-.login form input[type="text"],
-.login form input[type="password"] {
+.signup form input[type="text"],
+.signup form input[type="email"],
+.signup form input[type="password"] {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
-.login form input[type="submit"] {
+.signup form input[type="submit"] {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -153,7 +157,6 @@ footer{
     cursor: pointer;
 }
 
-.login form input[type="submit"]:hover {
+.signup form input[type="submit"]:hover {
     background-color: #0056b3;
 }
-
